@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backend + Front em Go</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Backend + Front em Go</h1>
+      <p>Este exemplo mostra um backend Go servindo a API e o front-end estático.</p>
+
+      <form id="hello-form">
+        <label for="name">Nome</label>
+        <div class="row">
+          <input id="name" name="name" placeholder="Digite seu nome" required />
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <p class="result" id="result"></p>
+      <pre class="code" id="response"></pre>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
